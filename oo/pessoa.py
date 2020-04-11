@@ -18,3 +18,7 @@ if __name__ == '__main__':
     print(krahe.idade)
     for filho in krahe.filhos:
         print(filho.nome)
+    krahe.sobrenome = 'Vieira'
+    del krahe.filhos
+    print(krahe.__dict__)
+    print(allek.__dict__)
